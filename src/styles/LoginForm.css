@@ -1,0 +1,18 @@
+input {
+  border:0 !important;
+  outline:0 !important;
+}
+input:focus {outline:none!important;}
+
+.input-form {
+  border: 1px solid rgb(150, 150, 150) !important;
+  /* padding: 5px 8px; */
+}
+
+.input-label {
+  text-align: left !important;
+}
+
+.form-footer div {
+  text-decoration: underline;
+}
