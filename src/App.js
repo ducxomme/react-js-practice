@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <HeaderLogin />
-        <LoginForm />
+        <LoginForm email="abc@example.com"/>
         {/* <TodoItem title="Alo alo" /> */}
         <MenuTab />
       </div>

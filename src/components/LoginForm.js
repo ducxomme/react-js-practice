@@ -3,7 +3,9 @@ import "../styles/LoginForm.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 class LoginForm extends Component {
+  
   render() {
+    let value = this.props.email ? this.props.email : '';
     return (
       <div className="container mt-4">
         <div className="form-header">
@@ -13,7 +15,7 @@ class LoginForm extends Component {
           <form className="col-sm-6 offset-md-3">
             <div className="form-group input-form pl-pr-4 pt-pb-2">
               <div className="input-label ml-2">Username</div>
-              <input type="text" className="form-control" placeholder="Nguyen Huu Duc"/>
+              <input type="text" className="form-control" placeholder="Nguyen Huu Duc" value={value}/>
             </div>
             <div className="form-group input-form pl-pr-4 pt-pb-2">
               <div className="input-label ml-2">Password</div>
