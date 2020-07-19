@@ -1,0 +1,19 @@
+.item-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 1px solid #EAEAEA;
+  background-color: #EEEEEE;
+}
+
+.clicked {
+  color: #8CDC52;
+}
+
+.clicked-box {
+  border-top: 2px solid #8CDC52;
+  /* border-bottom: 2px outset #EEEEEE; */
+  box-shadow: 2px 2px 5px #888888;
+  background-color: #FFF;
+}

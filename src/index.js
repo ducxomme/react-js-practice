@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'font-awesome/css/font-awesome.min.css';
 import App from './App';
 import List from './List';
 import * as serviceWorker from './serviceWorker';

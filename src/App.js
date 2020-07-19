@@ -4,6 +4,7 @@ import "./App.css";
 import TodoItem from "./components/TodoItem";
 import HeaderLogin from "./components/HeaderLogin";
 import LoginForm from './components/LoginForm';
+import MenuTab from './components/MenuTab';
 
 class App extends Component {
   render() {
@@ -11,6 +12,8 @@ class App extends Component {
       <div className="App">
         <HeaderLogin />
         <LoginForm />
+        {/* <TodoItem title="Alo alo" /> */}
+        <MenuTab />
       </div>
     );
   }

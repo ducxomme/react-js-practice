@@ -29,7 +29,7 @@ class LoginForm extends Component {
 
           <div className="form-check">
             <input className="form-check-input" type="checkbox" value="" />
-            <label className="form-check-label" for="keep-me">
+            <label className="form-check-label">
               Keep me signed in
             </label>
           </div>
