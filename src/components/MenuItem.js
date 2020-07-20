@@ -11,7 +11,7 @@ class MenuItem extends Component {
     const isClicked = this.props.clicked;
     let iconComponent;
     let textComponent;
-    if (isClicked == "true") {
+    if (isClicked === "true") {
       iconComponent = <FontAwesomeIcon icon={this.props.itemImg} style={{ color: "#8CDC52" }}/>
       textComponent = <div className="item-text clicked">{ this.props.itemText }</div>
     } else {
@@ -20,7 +20,7 @@ class MenuItem extends Component {
     }
 
     return (
-      <div className={ "item-container px-5 py-3" + (isClicked == "true" ? ' clicked-box' : '') }>
+      <div className={ "item-container px-5 py-3" + (isClicked === "true" ? ' clicked-box' : '') }>
         <div className="item-img">
           { iconComponent }
         </div>
