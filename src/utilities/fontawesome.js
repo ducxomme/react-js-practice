@@ -5,6 +5,16 @@ import {
   faUpload,
   faCoffee,
   faCog,
+  faAlignJustify,
+  faThList
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faHome, faGift, faUpload, faCoffee, faCog);
+library.add(
+  faHome, 
+  faGift, 
+  faUpload, 
+  faCoffee, 
+  faCog, 
+  faAlignJustify,
+  faThList
+);

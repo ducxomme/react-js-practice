@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/LoginForm.css";
+import "../../styles/LoginForm.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 class LoginForm extends Component {

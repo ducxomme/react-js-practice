@@ -1,0 +1,39 @@
+.social-network-top-container {
+  background-color: #fcf9f9;  
+  border-radius: 3px;
+  
+}
+
+.post-container-top {
+  /* margin: 5px 10px;*/
+  padding: 5px 15px; 
+  border-bottom: 1px solid rgb(206, 206, 206);
+  align-items: center;
+}
+.post-left-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post-right-setting {
+  align-items: center;
+}
+.post-right-setting div {
+  background-color: #E4E6EB;
+  border-radius: 5px;
+}
+
+.post-container-bottom {
+  align-items: center;
+}
+
+.post-view-list-left {
+  padding: 10px 5px;
+  margin: 0 15px;
+  border-bottom: 1px solid #1876F2;
+  color: #1876F2;
+}
+
+.post-view-list-right {
+  padding: 10px 5px;
+}

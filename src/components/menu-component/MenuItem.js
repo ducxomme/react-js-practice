@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import "../utilities/fontawesome";
-import "../styles/MenuItem.css"
+import "../../utilities/fontawesome";
+import "../../styles/MenuItem.css"
 
 
 class MenuItem extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.css";
-import '../styles/MenuTab.css';
+import '../../styles/MenuTab.css';
 import MenuItem from './MenuItem';
 
 

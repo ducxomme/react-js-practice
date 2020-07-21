@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
-import TodoItem from "./components/TodoItem";
-import HeaderLogin from "./components/HeaderLogin";
-import LoginForm from "./components/LoginForm";
-import MenuTab from "./components/MenuTab";
+// import TodoItem from "./components/TodoItem";
+import HeaderLogin from "./components/login-component/HeaderLogin";
+import LoginForm from "./components/login-component/LoginForm";
+import MenuTab from "./components/menu-component/MenuTab";
+import SocialNetwork from './components/facebook-component/SocialNetwork';
+import RecommendFriends from './components/facebook-component/RecommendFriends';
 
 class App extends Component {
   constructor() {
@@ -14,12 +16,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MenuTab />
+        <RecommendFriends />
+        <SocialNetwork />
         <HeaderLogin />
         <LoginForm email="abc@example.com" />
-        {
-        this.todoItems.map((item, index) => <TodoItem key={index} title={item} />)
-        }
       </div>
     );
   }
