@@ -4,7 +4,7 @@ import TodoItem from "./components/TodoItem";
 import HeaderLogin from "./components/HeaderLogin";
 import LoginForm from "./components/LoginForm";
 import MenuTab from "./components/MenuTab";
-
+import TableList from './components/TableList';
 class App extends Component {
   constructor() {
     super();
@@ -20,6 +20,7 @@ class App extends Component {
         {
         this.todoItems.map((item, index) => <TodoItem key={index} title={item} />)
         }
+        <TableList />
       </div>
     );
   }
