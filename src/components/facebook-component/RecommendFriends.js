@@ -5,7 +5,14 @@ import '../../styles/RecommendFriends.css';
 
 
 class RecommendFriends extends Component {
-
+  constructor() {
+    super();
+    this.friends = [
+      'Nguyen Van A',
+      'Le Van B',
+      'Nguyen Thi C'
+    ];
+  }
   render() {
     return (
       <div className="recommend-friends-list-container container-fluid col-md-4 offset-md-4">
@@ -14,9 +21,9 @@ class RecommendFriends extends Component {
           <div className="content-top-right">Xem tất cả</div>
         </div>
         <div className="friends-list-container">
-          <FollowFriendListItem />
-          <FollowFriendListItem />
-          <FollowFriendListItem />
+          {
+            this.friends.map((friend, index) => <FollowFriendListItem friendName={friend} key={index} />)
+          }
         </div>
       </div>
     )
