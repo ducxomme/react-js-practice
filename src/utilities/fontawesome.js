@@ -7,6 +7,7 @@ import {
   faCog,
   faBell,
   faCircle,
+  faSearch
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faHome, faGift, faUpload, faCoffee, faCog, faBell, faCircle);
+library.add(faHome, faGift, faUpload, faCoffee, faCog, faBell, faCircle, faSearch);

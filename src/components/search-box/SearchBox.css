@@ -1,0 +1,24 @@
+.search-box-container {
+  border: 1px solid #999;
+  border-radius: 25px;
+  padding: 3px 5px 3px 20px;
+}
+
+.search-box-container input {
+  border: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+.search-icon {
+  background-color: #4A36EB;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.search-icon svg {
+  color: #ffffff;
+}
