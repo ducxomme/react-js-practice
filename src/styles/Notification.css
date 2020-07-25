@@ -1,0 +1,19 @@
+.notification-container {
+  position: relative;
+}
+
+.notification-container > svg {
+  font-size: 1.33em;
+}
+.dot-notification svg {
+  font-size: .5em;
+}
+
+.dot-notification {
+  position: absolute;
+  display: block;
+  overflow: auto;
+  top: -10px;
+  left: 50.5%;
+}
+

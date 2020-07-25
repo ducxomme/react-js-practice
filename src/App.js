@@ -5,6 +5,7 @@ import HeaderLogin from "./components/HeaderLogin";
 import LoginForm from "./components/LoginForm";
 import MenuTab from "./components/MenuTab";
 import TableList from './components/TableList';
+import Notification from './components/Notification';
 class App extends Component {
   constructor() {
     super();
@@ -14,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Notification hasUnread={true}/>
         <MenuTab />
         <HeaderLogin />
         <LoginForm email="abc@example.com" />
