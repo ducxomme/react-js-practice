@@ -47,7 +47,6 @@ class SearchBox extends Component {
 
   onChange(event) {
     let input = event.target.value;
-    console.log(input);
     if (!Number(input)) {
       this.setState({
         isRightNumber: false
